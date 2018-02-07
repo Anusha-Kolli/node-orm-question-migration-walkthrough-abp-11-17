@@ -4,7 +4,7 @@ const db = require("../config/db")
 
 class Question{
    static CreateTable(){
-     return new promise(function(resolve){
+     return new Promise(function(resolve){
        resolve("nothing");
      })
 
