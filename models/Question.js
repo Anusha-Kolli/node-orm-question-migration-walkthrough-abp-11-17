@@ -4,9 +4,11 @@ const db = require("../config/db")
 
 class Question{
    static CreateTable(){
-     const sql = new promise(){
+     const sql = new promise(function(){
        
-     }
+     })
+
+
    }
 }
 
